@@ -1,13 +1,84 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bannercontainer{
+    height: 320px;
+    background-image: url('./img/fondo.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.banner{
+    object-fit: cover;
+}
+
+#banner{
+    padding: 0;
+}
+
+.fotocvcontainer{
+    width: 170px;
+    height: 170px;
+    display: flex;
+}
+
+.fotocv{
+    object-fit:cover;
+    border-radius: 50%;
+    border: 1px solid rgba(37, 37, 37, 0.63);
+}
+
+.nomdesc{
+    padding-top: 60px;
+}
+
+.logoempresacontainer{
+    width: 20vw;
+}
+
+.logoempresa{
+    object-fit: cover;
+}
+
+.logo-empresa{
+    width: 50%; 
+    height: 80%;
+}
+
+.nav-item:hover{
+    background: rgba(228, 228, 228, 0.63);
+}
+
+.bg-verdeagua{
+    background-color: rgb(196, 226, 202);
+}
+
+.bg-azul{
+    background-color: rgb(88, 125, 159);
+}
+
+.verdeagua{
+    color: rgb(196, 226, 202);
+}
+
+.bg-azul{
+    color: rgb(88, 125, 159);
+}
+
+.border-verdeagua{
+    border-color: rgb(196, 226, 202);
+}
+
+.texto-skill{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    user-select: none;
 }
