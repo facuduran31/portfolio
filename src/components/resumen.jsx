@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 function Resumen(){
   return(
     <motion.div 
-      className="container bg-light shadow shadow-lg"
+      className="container bg-light shadow shadow-lg p-4"
       initial={{ scale: 0 }}
       animate={{ scale: 1 }}
       transition={{ ease: "easeIn", duration: 1 }}

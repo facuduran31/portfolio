@@ -71,14 +71,13 @@
     border-color: rgb(196, 226, 202);
 }
 
-.texto-skill{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    user-select: none;
+.ir-arriba{
+    background-repeat:no-repeat;
+    font-size:25px;
+    color:black;
+    cursor:pointer;
+    position:fixed;
+    bottom:15px;
+    right:15px;
+    z-index:999;
 }
