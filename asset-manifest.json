@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.22a7c90e.css",
+    "main.js": "/static/js/main.d39a8691.js",
+    "static/media/fotocv.png": "/static/media/fotocv.3d1339e3c6f85e18d654.png",
+    "static/media/fondo.png": "/static/media/fondo.02ae61d4d5620fe934f1.png",
+    "static/media/logo-utn.png": "/static/media/logo-utn.9c0e3c54a4c14ca6cb5d.png",
+    "index.html": "/index.html",
+    "main.22a7c90e.css.map": "/static/css/main.22a7c90e.css.map",
+    "main.d39a8691.js.map": "/static/js/main.d39a8691.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22a7c90e.css",
+    "static/js/main.d39a8691.js"
+  ]
+}
