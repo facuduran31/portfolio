@@ -23,7 +23,7 @@ function Skills(){
               progress={90}
               radius={75}
             />
-            <p className='text-center mt-3'>HTML, CSS, JavaScript, Bootstrap, React Native</p>
+            <p className='text-center mt-3'>HTML, CSS, JavaScript, Bootstrap, React, Angular</p>
           </div>
           <div className='col d-flex align-items-center flex-column'>
             <h3 className='text-center'><b>Backend</b></h3>
@@ -32,7 +32,7 @@ function Skills(){
               radius={75}
               strokeColor="#a0d468"
             />
-            <p className='text-center mt-3'>NodeJs, API's, Express</p>
+            <p className='text-center mt-3'>NodeJs, Express, ASP.NET</p>
           </div>
           <div className='col d-flex align-items-center flex-column'>
             <h3 className='text-center'><b>Databases</b></h3>
@@ -41,7 +41,7 @@ function Skills(){
               radius={75}
               strokeColor="#ffce54"
             />
-            <p className='text-center mt-3'>MySQL, Workbench, phpMyAdmin</p>
+            <p className='text-center mt-3'>MySQL, Workbench, SQL Server</p>
           </div>
           <div className='col d-flex align-items-center flex-column'>
             <h3 className='text-center'><b>Repositories</b></h3>
